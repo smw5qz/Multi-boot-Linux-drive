@@ -30,7 +30,7 @@ Steps in Terminal, *run sudo su to stay in root or sudo before each line*
 10. grub-mkconfig /mnt/boot/grub/grub.cfg #creates grub config on the drive based on your system's config
 
 #NOTE: At this point we must tread carefully to ensure each iso shows up on the GRUB menu
-11. Edit the grub.cfg, keep your 00 initalization section, clear the 10, 20, 30, 40 and beyond 
+11. Edit the grub.cfg, keep your 00 initalization section, clear the 10, 20, 30, 40 and beyond
 12. IMPORTANT: change the both timeouts in the code to 10, otherwise first menu items will be auto-selected
 13. Put this at the start of your 10_Linux section, sets the path to your labels device, which is persistent. Devpaths are not across sessions.
 set imgdevpath="/dev/disk/by-label/YOURLABELNAME"
