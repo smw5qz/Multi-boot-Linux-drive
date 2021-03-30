@@ -1,5 +1,5 @@
 # Multi-boot-Linux-drive
-Simple process for loading a USB/SD/other drive with multiple bootable Linux distributions
+Simple process for loading a USB/SD/other drive with multiple bootable Linux distributions  
 Clarifies this wiki: https://wiki.archlinux.org/index.php/Multiboot_USB_drive
 
 Running Arch Linux, it occured to me that multiple bootable Linux distros on on drive could be quite helpful. When system failure occurs, and cannot be restored, one ought to have a current Arch bootable .iso, and a light, quick rescue OS. I prefer Puppy to get to disk utilities with the target drive unmounted.
